@@ -1,0 +1,20 @@
+p{
+    color: blue;
+}
+
+.hello{
+    color: saddlebrown;
+}
+
+#hello{
+    color: blueviolet;
+}
+
+.example{
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+#unique{
+    color: deeppink;
+}
