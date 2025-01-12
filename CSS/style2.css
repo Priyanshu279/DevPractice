@@ -1,0 +1,90 @@
+span{
+    color: red;
+}
+
+*{
+    color: springgreen;
+}
+
+h1{
+    color: brown;
+}
+
+p{
+    color: skyblue;
+}
+
+.heading{
+    color: fuchsia;
+    border: 2px solid black;
+}
+
+#about{
+    color: red;
+}
+
+h2,article{
+    color: lightseagreen;
+}
+
+h3{
+    color: gold;
+    border: 2px solid gold;
+}
+
+h4{
+    color: rgb(0,0,255);
+}
+
+#rgba{
+    color: rgba(255, 180, 0, 0.5);
+}
+
+#hex{
+    color: #ff0074;
+}
+
+#hsl{
+    color: hsl(0,60%,45%);
+}
+
+body{
+    background-color: bisque;
+}
+
+#bkgcolor{
+    background-color: blueviolet;
+}
+
+#bkgimg{
+    background-image: url(./images2/Courgette-curry-c295fa0.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#bkg{
+    color: yellow;
+    background-image: url(./images2/Digital_Sticker_Use\ Gen\ AI\ for\ Software\ Development.png);
+    background-position: center;
+    background-size: 30% 20%;
+}
+
+#bdr1{
+    border-style: dashed;
+}
+
+#bdr2{
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 5px;
+}
+
+#bdr3{
+    border-style: double;
+    border-color: blue;
+    border-width: 5px 2px 1px 3px;
+}
+
+#bdr4{
+    border: 5px solid lightcoral;
+}
