@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Media Queries</title>
+    <style>
+        .container{
+            width: 500px;
+            height: 400px;
+            background-color: rgb(45,44,44);
+            display: flex;
+        }
+        .box{
+            width: 50px;
+            height: 50px;
+            background-color: orange;
+            border: 5px solid rgb(244, 202, 124);
+            border-radius: 5px;
+            margin: 5px;
+        }
+
+        @media (max-width:720px){
+            .container{
+                flex-direction: column;
+            }
+        }
+
+        @media (min-width:300px){
+            .container{
+                background-color: bisque;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+    </div>
+</body>
+</html>
